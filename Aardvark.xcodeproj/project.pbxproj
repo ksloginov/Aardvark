@@ -67,7 +67,7 @@
 		EA3C1DAE1D934B1D0048C4CD /* ARKLogStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA73536F1A15C5E70060F54E /* ARKLogStoreTests.m */; };
 		EA3C1DB41D934B460048C4CD /* ARKDefineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA09D3C41A2E6D2F004C1125 /* ARKDefineTests.m */; };
 		EA98B8B91D4BE80F00B3A390 /* ARKLogTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = EA98B8B31D4BE80F00B3A390 /* ARKLogTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA98B8BF1D4BE82100B3A390 /* NSFileHandle+ARKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EA98B8BA1D4BE82100B3A390 /* NSFileHandle+ARKAdditions.h */; };
+		EA98B8BF1D4BE82100B3A390 /* NSFileHandle+ARKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EA98B8BA1D4BE82100B3A390 /* NSFileHandle+ARKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA98B8C11D4BE82100B3A390 /* NSFileHandle+ARKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EA98B8BB1D4BE82100B3A390 /* NSFileHandle+ARKAdditions.m */; };
 		EA98B8C31D4BE82100B3A390 /* NSURL+ARKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EA98B8BC1D4BE82100B3A390 /* NSURL+ARKAdditions.h */; };
 		EA98B8C51D4BE82100B3A390 /* NSURL+ARKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EA98B8BD1D4BE82100B3A390 /* NSURL+ARKAdditions.m */; };
@@ -420,6 +420,7 @@
 				EA98B9311D4BEB6E00B3A390 /* ARKDefaultLogFormatter.h */,
 				EA98B8CD1D4BE83300B3A390 /* ARKLogMessage.h */,
 				EA98B8EE1D4BE85400B3A390 /* CoreAardvark.h */,
+				EA98B8BA1D4BE82100B3A390 /* NSFileHandle+ARKAdditions.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -427,7 +428,6 @@
 		25BD1B3D2CB073C40059ACDA /* private */ = {
 			isa = PBXGroup;
 			children = (
-				EA98B8BA1D4BE82100B3A390 /* NSFileHandle+ARKAdditions.h */,
 				EA98B8D01D4BE83300B3A390 /* ARKLogStore_Testing.h */,
 				EA98B8C91D4BE83300B3A390 /* ARKLogDistributor_Protected.h */,
 				3D850496215EF20800B3957C /* ARKExceptionLogging_Testing.h */,
