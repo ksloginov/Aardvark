@@ -14,11 +14,7 @@
 //  limitations under the License.
 //
 
-#if SWIFT_PACKAGE
 #import "NSFileHandle+ARKAdditions.h"
-#else
-#import <CoreAardvark/NSFileHandle+ARKAdditions.h>
-#endif
 
 #import "AardvarkDefines.h"
 
