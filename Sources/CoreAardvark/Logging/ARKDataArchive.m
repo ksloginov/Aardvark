@@ -18,7 +18,11 @@
 #import "ARKDataArchive_Testing.h"
 
 #import "AardvarkDefines.h"
+#if SWIFT_PACKAGE
+#import "../private/NSFileHandle+ARKAdditions.h"
+#else
 #import "NSFileHandle+ARKAdditions.h"
+#endif
 
 
 NSUInteger const ARKMaximumChunkSizeForTrimOperation = (1024 * 1024);

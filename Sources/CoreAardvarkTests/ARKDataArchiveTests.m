@@ -20,7 +20,11 @@
 #import "ARKDataArchive_Testing.h"
 
 #import "ARKLogMessage.h"
+#if SWIFT_PACKAGE
+#import "../CoreAardvark/private/NSFileHandle+ARKAdditions.h"
+#else
 #import "NSFileHandle+ARKAdditions.h"
+#endif
 #import "NSURL+ARKAdditions.h"
 
 

@@ -16,7 +16,11 @@
 
 @import XCTest;
 
+#if SWIFT_PACKAGE
+#import "../CoreAardvark/private/NSFileHandle+ARKAdditions.h"
+#else
 #import "NSFileHandle+ARKAdditions.h"
+#endif
 
 #import "NSURL+ARKAdditions.h"
 

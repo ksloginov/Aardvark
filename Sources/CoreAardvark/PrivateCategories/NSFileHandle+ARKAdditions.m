@@ -14,7 +14,11 @@
 //  limitations under the License.
 //
 
+#if SWIFT_PACKAGE
+#import "../private/NSFileHandle+ARKAdditions.h"
+#else
 #import "NSFileHandle+ARKAdditions.h"
+#endif
 
 #import "AardvarkDefines.h"
 
@@ -60,7 +64,11 @@ typedef unsigned long long ARKFileOffset;
     }
 }
 
+@end
+
 #pragma mark -
+
+@implementation NSFileHandle (ARKAdditions_Private)
 
 - (void)ARK_writeDataBlock:(NSData *)dataBlock;
 {

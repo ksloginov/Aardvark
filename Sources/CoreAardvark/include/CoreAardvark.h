@@ -35,6 +35,7 @@ FOUNDATION_EXPORT const unsigned char CoreAardvark_iOSVersionString[];
 #import "ARKLogStore.h"
 #import "ARKLogTypes.h"
 #import "ARKExceptionLogging.h"
+#import "NSFileHandle+ARKAdditions.h"
 #else
 #import <CoreAardvark/AardvarkDefines.h>
 #import <CoreAardvark/ARKDataArchive.h>
