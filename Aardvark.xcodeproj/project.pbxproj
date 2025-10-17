@@ -377,7 +377,6 @@
 				3D6E2D0D20868335007B8013 /* ARKEmailBugReportConfiguration.h */,
 				EA98B9341D4BEB6E00B3A390 /* ARKEmailBugReporter.h */,
 				3DA5BF392556602000B6D148 /* AardvarkMailUI.h */,
-				251ED2192CB076B200B8AD4B /* Exports.swift */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -512,6 +511,7 @@
 				251ED2132CB0768100B8AD4B /* include */,
 				3D6E2D0C20868335007B8013 /* ARKEmailBugReportConfiguration.m */,
 				EA98B9351D4BEB6E00B3A390 /* ARKEmailBugReporter.m */,
+				251ED2192CB076B200B8AD4B /* Exports.swift */,
 				3DA5BF3A2556602000B6D148 /* Info.plist */,
 			);
 			name = AardvarkMailUI;
