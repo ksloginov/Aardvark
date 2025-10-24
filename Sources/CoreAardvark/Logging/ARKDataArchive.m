@@ -18,6 +18,7 @@
 #import "ARKDataArchive_Testing.h"
 
 #import "AardvarkDefines.h"
+#import <CoreAardvark/NSFileHandle+ARKAdditions.h>
 #import "NSFileHandle+ARKAdditions.h"
 
 
